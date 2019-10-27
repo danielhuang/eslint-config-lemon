@@ -27,7 +27,6 @@
     "typescript": "^3.6.3"
   },
   "devDependencies": {
-    "lerna": "3.18.3",
     "semantic-release": "15.13.28"
   },
   "scripts": {
