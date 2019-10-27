@@ -31,7 +31,8 @@
     "semantic-release": "^15.13.28"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
