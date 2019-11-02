@@ -27,7 +27,7 @@
     "typescript": "^3.6.3"
   },
   "devDependencies": {
-    "semantic-release": "15.13.28"
+    "semantic-release": "15.13.29"
   },
   "scripts": {
     "semantic-release": "semantic-release",
