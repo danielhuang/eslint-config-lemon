@@ -15,7 +15,7 @@ Opinionated ESLint configuration with lots of goodies included. Enforces strict 
 
 - Zero-config with easy installation.
 - Enforces readable code, because you read more code than you write.
-- No need to specify file paths to lint as it lints all JS files except for [commonly ignored paths](#ignores).
+- No need to specify file paths to lint as it lints all JS files except for commonly ignored paths.
 - Includes `prettier` with automatic formatting.
 - Compatible with editor plugins.
 
