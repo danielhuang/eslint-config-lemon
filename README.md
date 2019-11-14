@@ -1,9 +1,9 @@
-<h1 align="center">
+<div align="center">
 	<br>
 	<img width="400" src="logo.svg" alt="XO">
 	<br>
 	<br>
-</h1>
+</div>
 
 ## Linter for JavaScript, TypeScript, JSX, and more
 
