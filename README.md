@@ -1,6 +1,6 @@
 <div align="center">
 	<br>
-	<img width="400" src="logo.svg" alt="XO">
+	<img width="400" src="logo.svg">
 	<br>
 	<br>
 </div>
@@ -26,7 +26,7 @@ Opinionated ESLint configuration with lots of goodies included. Enforces strict 
 ```sh
 npx add-eslint # for JavaScript and JSX
 npx add-eslint --ts # for TypeScript
-npx add-eslint --tsx ## for TypeScript + React
+npx add-eslint --tsx # for TypeScript + React
 ```
 
 ### Manual installation
