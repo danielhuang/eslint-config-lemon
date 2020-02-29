@@ -5,8 +5,12 @@ const config = require('.')
 module.exports = mergeOptions({}, config, {
   extends: [
     'airbnb',
-    'plugin:@typescript-eslint/recommended',
+    'xo',
+    'xo-react',
     'prettier',
+    'prettier/react',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
   ],
   plugins: ['prettier', '@typescript-eslint', 'prefer-arrow'],
