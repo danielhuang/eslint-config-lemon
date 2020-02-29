@@ -9,7 +9,7 @@ module.exports = mergeOptions({}, config, {
     'prettier',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['prettier', '@typescript-eslint'],
+  plugins: ['prettier', '@typescript-eslint', 'prefer-arrow'],
   rules: {
     'no-useless-constructor': 'off',
     'import/extensions': 'off',
