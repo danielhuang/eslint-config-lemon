@@ -19,7 +19,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "2.5.1",
     "merge-options": "2.0.0",
-    "prettier": "2.0.1",
+    "prettier": "2.0.2",
     "typescript": "3.8.3"
   },
   "devDependencies": {
