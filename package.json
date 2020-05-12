@@ -20,7 +20,7 @@
     "eslint-plugin-react-hooks": "4.0.1",
     "merge-options": "2.0.0",
     "prettier": "2.0.5",
-    "typescript": "3.8.3"
+    "typescript": "3.9.2"
   },
   "devDependencies": {
     "semantic-release": "17.0.7"
