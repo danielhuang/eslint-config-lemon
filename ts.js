@@ -25,6 +25,7 @@ module.exports = mergeOptions({}, config, {
 				trailingComma: 'all',
 				singleQuote: true,
 				parser: 'typescript',
+				useTabs: true,
 			},
 		],
 		'@typescript-eslint/no-parameter-properties': 'off',
