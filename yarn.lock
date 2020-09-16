@@ -3747,10 +3747,10 @@ meow@^5.0.0:
     trim-newlines "^2.0.0"
     yargs-parser "^10.0.0"
 
-merge-options@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-3.0.2.tgz#184a6eaa2482163abc01254a7899888279c3d75b"
-  integrity sha512-7TM9KD5J6TfT7Frs7PUnhA7Agkuag/vG9BdDbFtP54mrquqflOTJ30QXzlpI/ZX2cLDi6lw96eRF3ZhxkUVgKw==
+merge-options@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/merge-options/-/merge-options-3.0.3.tgz#802b401f0de8dfae00d2a1e2dab9759b3dd98fe4"
+  integrity sha512-jytfjQxL5mVrtD9O24zOXU4neV3uVbQdn1F0o1pzSa1yH9LTEUOtfwpWSsyAxrrrXqAFTxaU4ynqkmekHLvYew==
   dependencies:
     is-plain-obj "^2.1.0"
 
