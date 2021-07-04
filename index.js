@@ -100,6 +100,10 @@ module.exports = {
 			},
 		],
 		'react/jsx-props-no-spreading': ['off'],
+		'react/jsx-filename-extension': [
+			'error',
+			{ allow: 'as-needed', extensions: ['.jsx', '.tsx'] },
+		],
 	},
 	parser: 'babel-eslint',
 	env: {
