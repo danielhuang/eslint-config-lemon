@@ -1,0 +1,12 @@
+on: push
+jobs:
+  semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+      - run: yarn
+      - run: yarn test
+      - run: yarn semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
