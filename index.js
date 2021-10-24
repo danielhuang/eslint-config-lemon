@@ -104,21 +104,23 @@ module.exports = {
 			'error',
 			{ allow: 'as-needed', extensions: ['.jsx', '.tsx'] },
 		],
+		'import/extensions': ['off'],
 	},
-	parser: 'babel-eslint',
 	env: {
 		node: true,
 		browser: true,
 		jest: true,
 	},
+	parserOptions: {
+		ecmaVersion: 'latest',
+		ecmaFeatures: {
+			jsx: true,
+		},
+	},
 	settings: {
 		'import/parsers': {
 			'@typescript-eslint/parser': ['.ts', '.tsx'],
 		},
-		'import/resolver': {
-			node: {
-				extensions: ['.js', '.jsx', '.ts', '.tsx'],
-			},
-		},
+		'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
 	},
 }
