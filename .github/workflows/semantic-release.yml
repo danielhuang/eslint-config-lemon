@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+    branches:
+      - master
 jobs:
   semantic-release:
     runs-on: ubuntu-latest
