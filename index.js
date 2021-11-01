@@ -1,12 +1,5 @@
 module.exports = {
-	extends: [
-		'airbnb',
-		'xo',
-		'xo-react',
-		'prettier',
-		'prettier/react',
-		'plugin:react/recommended',
-	],
+	extends: ['airbnb', 'xo', 'xo-react', 'prettier', 'plugin:react/recommended'],
 	plugins: ['prettier', 'prefer-arrow'],
 	rules: {
 		'prettier/prettier': [
