@@ -4,7 +4,6 @@ module.exports = {
 		'xo',
 		'xo-react',
 		'prettier',
-		'prettier/react',
 		'plugin:react/recommended',
 	],
 	plugins: ['prettier', 'prefer-arrow'],
