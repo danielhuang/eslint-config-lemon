@@ -8,7 +8,6 @@ module.exports = mergeOptions({}, config, {
 		'xo',
 		'xo-react',
 		'prettier',
-		'prettier/react',
 		'plugin:react/recommended',
 		'plugin:@typescript-eslint/recommended',
 		'prettier/@typescript-eslint',
