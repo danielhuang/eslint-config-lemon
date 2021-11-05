@@ -10,7 +10,6 @@ module.exports = mergeOptions({}, config, {
 		'prettier',
 		'plugin:react/recommended',
 		'plugin:@typescript-eslint/recommended',
-		'prettier/@typescript-eslint',
 	],
 	plugins: ['prettier', '@typescript-eslint', 'prefer-arrow'],
 	rules: {
