@@ -1,6 +1,6 @@
 module.exports = {
 	extends: ['airbnb', 'xo', 'xo-react', 'prettier', 'plugin:react/recommended'],
-	plugins: ['prettier', 'prefer-arrow'],
+	plugins: ['prettier', 'prefer-arrow', 'unused-imports'],
 	rules: {
 		'prettier/prettier': [
 			'error',
@@ -98,6 +98,17 @@ module.exports = {
 			{ allow: 'as-needed', extensions: ['.jsx', '.tsx'] },
 		],
 		'import/extensions': ['off'],
+		'no-unused-vars': 'off',
+		'unused-imports/no-unused-imports': 'warn',
+		'unused-imports/no-unused-vars': [
+			'warn',
+			{
+				vars: 'all',
+				varsIgnorePattern: '^_',
+				args: 'after-used',
+				argsIgnorePattern: '^_',
+			},
+		],
 	},
 	env: {
 		node: true,
