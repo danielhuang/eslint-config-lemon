@@ -11,7 +11,7 @@ module.exports = mergeOptions({}, config, {
 		'plugin:react/recommended',
 		'plugin:@typescript-eslint/recommended',
 	],
-	plugins: ['prettier', '@typescript-eslint', 'prefer-arrow'],
+	plugins: ['prettier', '@typescript-eslint', 'prefer-arrow', 'unused-imports'],
 	rules: {
 		'no-useless-constructor': 'off',
 		'import/extensions': 'off',
