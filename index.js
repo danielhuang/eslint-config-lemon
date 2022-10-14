@@ -84,14 +84,7 @@ module.exports = {
 		'jsx-a11y/media-has-caption': 'off',
 		'react/display-name': 'off',
 		'arrow-body-style': ['error', 'as-needed'],
-		'prefer-arrow/prefer-arrow-functions': [
-			'error',
-			{
-				disallowPrototype: true,
-				singleReturnOnly: true,
-				classPropertiesAllowed: false,
-			},
-		],
+		'prefer-arrow/prefer-arrow-functions': 'off',
 		'react/jsx-props-no-spreading': ['off'],
 		'react/jsx-filename-extension': [
 			'error',
