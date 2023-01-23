@@ -102,6 +102,7 @@ module.exports = {
 				argsIgnorePattern: '^_',
 			},
 		],
+		'react/no-unknown-property': 'off',
 	},
 	env: {
 		node: true,
