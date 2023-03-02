@@ -34,7 +34,7 @@ npx add-eslint --tsx # for TypeScript + React
 Install `eslint-config-lemon` to your project:
 
 ```sh
+cotton add -D eslint-config-lemon
 npm i -D eslint-config-lemon
 yarn add -D eslint-config-lemon
 ```
-
