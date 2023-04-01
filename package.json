@@ -24,7 +24,7 @@
     "eslint-config-next": "13.2.4"
   },
   "devDependencies": {
-    "semantic-release": "21.0.0"
+    "semantic-release": "21.0.1"
   },
   "scripts": {
     "semantic-release": "semantic-release",
