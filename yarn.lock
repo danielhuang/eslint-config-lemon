@@ -129,10 +129,10 @@
   resolved "https://registry.yarnpkg.com/@isaacs/string-locale-compare/-/string-locale-compare-1.1.0.tgz#291c227e93fd407a96ecd59879a35809120e432b"
   integrity sha512-SQ7Kzhh9+D+ZW9MA0zkYv3VXhIDNx+LzM6EJ+/65I3QY+enU6Itte7E5XX7EWrqLW2FN4n06GWzBnPoC3th2aQ==
 
-"@next/eslint-plugin-next@13.4.13":
-  version "13.4.13"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.13.tgz#8b615032ab2cce94e13b3496c0cb5979a6078771"
-  integrity sha512-RpZeXlPxQ9FLeYN84XHDqRN20XxmVNclYCraLYdifRsmibtcWUWdwE/ANp2C8kgesFRsvwfsw6eOkYNl9sLJ3A==
+"@next/eslint-plugin-next@13.4.15":
+  version "13.4.15"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.15.tgz#cba8ac50cef554feae34cab5805522fa5a79999d"
+  integrity sha512-R+cOYbVyJM30d4OaDgRSCbtqsaoHfjnRUUuKxm74rswR82mv0c8En7+SXXsEfIpLCmGNSqOP5zF8aEE5e09VQQ==
   dependencies:
     glob "7.1.7"
 
@@ -2050,12 +2050,12 @@ eslint-config-airbnb@19.0.4:
     object.assign "^4.1.2"
     object.entries "^1.1.5"
 
-eslint-config-next@13.4.13:
-  version "13.4.13"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.4.13.tgz#da1d18fff62d5d72c4596c022f883f11bd33de22"
-  integrity sha512-EXAh5h1yG/YTNa5YdskzaSZncBjKjvFe2zclMCi2KXyTsXha22wB6MPs/U7idB6a2qjpBdbZcruQY1TWjfNMZw==
+eslint-config-next@13.4.15:
+  version "13.4.15"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-13.4.15.tgz#21778691a259e533363095a4a72af5585667b351"
+  integrity sha512-OSD4YQMSR8KvnTIQErCpFnXjElZEmXP8KgAXU3/8oGfKFa4dexRZtZl8DKs9M0dO5J3HHhD6I2pdHvICEuB5FQ==
   dependencies:
-    "@next/eslint-plugin-next" "13.4.13"
+    "@next/eslint-plugin-next" "13.4.15"
     "@rushstack/eslint-patch" "^1.1.3"
     "@typescript-eslint/parser" "^5.4.2 || ^6.0.0"
     eslint-import-resolver-node "^0.3.6"
