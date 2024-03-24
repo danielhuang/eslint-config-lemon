@@ -20,7 +20,7 @@
     "eslint-plugin-unused-imports": "3.1.0",
     "merge-options": "3.0.4",
     "prettier": "2.8.8",
-    "typescript": "5.4.2",
+    "typescript": "5.4.3",
     "eslint-config-next": "14.1.4"
   },
   "devDependencies": {
