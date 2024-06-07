@@ -28,7 +28,7 @@
   },
   "scripts": {
     "semantic-release": "semantic-release",
-    "test": "eslint . && eslint test/* --ext js,jsx"
+    "test": "eslint . && eslint test/* --ext js,jsx && eslint --config ./tsx.js test_tsx/* --fix"
   },
   "repository": {
     "type": "git",
