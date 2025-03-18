@@ -21,7 +21,7 @@
     "merge-options": "3.0.4",
     "prettier": "2.8.8",
     "typescript": "5.8.2",
-    "eslint-config-next": "15.2.2"
+    "eslint-config-next": "15.2.3"
   },
   "devDependencies": {
     "semantic-release": "24.2.3"
